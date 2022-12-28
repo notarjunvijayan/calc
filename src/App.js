@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <div className="heading">
-        <h1>Calculator App</h1>
+        <div>
+          <h1>Calculator</h1>
+          <p>By Arjun Vijayan</p>
+        </div>
       </div>
       <div className="container">
       <div className="canvas">

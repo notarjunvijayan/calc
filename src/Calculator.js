@@ -25,7 +25,7 @@ function Calculator(){
         setInput(result)
     }
     return(
-        <div>
+        <div className = "chumma">
         <div className="textfield">
            <span>{input}</span>
         </div>
@@ -39,10 +39,10 @@ function Calculator(){
         <button onClick = {() => (update(6))}>6</button>
         <button onClick = {() => (update(7))}>7</button>
         <button onClick = {() => (update(8))}>8</button>
-        <button onClick = {() => (update(9))}>9</button><br></br>
-        <button onClick = {remove}>C</button>
+        <button onClick = {() => (update(9))}>9</button>
+        <button className = "special" onClick = {remove}>C</button>
         <button onClick = {() => (update(0))}>0</button>
-        <button onClick = {reset}>CE</button>
+        <button className = "special" onClick = {reset}>CE</button>
         </div>
         <div className="spec-but">
             <button onClick = {() =>(update('+'))}>+</button>
@@ -51,8 +51,8 @@ function Calculator(){
             <button onClick = {() =>(update('/'))}>/</button>
             <button onClick = {() => (update('('))}>(</button>
             <button onClick = {() => (update(')'))}>)</button>
-            <button onClick = {() => (update('.'))}>.</button><br></br>
-            <button onClick = {calculate}>=</button>
+            <button onClick = {() => (update('.'))}>.</button>
+            <button className = "special" onClick = {calculate}>=</button>
         </div>
         </div>
         </div>

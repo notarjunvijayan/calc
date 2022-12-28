@@ -9,7 +9,7 @@
     border-radius: 10vw;
     color: #b1dd40;
     padding: 1vh 1vw;
-    margin: 1vw 5vw 5vh 5vw;
+    margin: 7vh 7.5vw 3vh 7.5vw;
     font-size: 3.5vh;
     font-weight: 200;
 }
@@ -23,10 +23,10 @@ button{
     box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
     border-radius: 50vw;
     background-color: #111606;
-    width:10vh;
-    height: 10vh;
+    width:5vw;
+    height: 5vw;
     font-family: 'Manrope',sans-serif;
-    font-size: 3.5vh;
+    font-size: 1.5vw;
     font-weight: 200;
     margin: 0.5vw;
     border: #111606;
@@ -40,7 +40,7 @@ button{
 }
 .canvas{
     background-color: #111606;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,4 +49,49 @@ button{
 }
 .buttons{
     height: 40vh;
+    width:20vw;
+    align-self: flex-start;
+}
+.spec-but{
+    width: 20vw;
+}
+.special{
+    background-color: #b1dd40;
+    color: #111606;
+}
+.chumma{
+    width:60vw;
+    height: 75vh;
+}
+@media (max-width: 800px) {
+    .textfield{
+        margin-left: 5vw;
+        width:80vw;
+    }
+    .heading{
+        height: 15vh;
+    }
+    .chumma{
+        width:90vw;
+        height: 85vh;
+    }
+    button{
+        width:15vw;
+        height: 15vw;
+        font-size: 3vw;
+    }
+    .canvas{
+        width:90vw;
+        height: 85vh;
+    }
+    .buttons{
+        width: 50vw;
+        height:40vh;
+        margin-left: 20vw;
+    }
+    .spec-but{
+        width: 50vw;
+        margin-left: 20vw;
+        height: 20vh;
+    }
 }

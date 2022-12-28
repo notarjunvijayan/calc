@@ -5,10 +5,17 @@ body {
   color: #111606;
   background-color: #b1dd40;
   font-family: 'Manrope', sans-serif;
+  overflow: hidden;
 }
 h1{
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 10vh;
+    margin: 0%;
+}
+p{
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
 }
 .container{
     display: flex;
@@ -16,4 +23,9 @@ h1{
     justify-content: center;
     width: 100vw;
     height: 80vh;
+}
+@media (max-width:800px){
+  h1{
+    font-size: 7vw;
+  }
 }
