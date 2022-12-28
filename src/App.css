@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;200&display=swap');
+.textfield{
+    width:45vw;
+    height:5vh;
+    background-color: #111606;
+    -webkit-box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10vw;
+    color: #b1dd40;
+    padding: 1vh 1vw;
+    margin: 1vw 5vw 5vh 5vw;
+    font-size: 3.5vh;
+    font-weight: 200;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:#b1dd40;
+    -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 50vw;
+    background-color: #111606;
+    width:10vh;
+    height: 10vh;
+    font-family: 'Manrope',sans-serif;
+    font-size: 3.5vh;
+    font-weight: 200;
+    margin: 0.5vw;
+    border: #111606;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading{
+    width:100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.canvas{
+    background-color: #111606;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+    width:60vw;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons{
+    height: 40vh;
 }

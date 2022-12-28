@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './calculator.css'
 
 function Calculator(){
     const [input, setInput] = useState("")
@@ -24,17 +25,18 @@ function Calculator(){
         setInput(result)
     }
     return(
-        <>
+        <div>
         <div className="textfield">
            <span>{input}</span>
         </div>
+        <div className="calculator">
         <div className="buttons">
         <button onClick = {() => (update(1))}>1</button>
         <button onClick = {() => (update(2))}>2</button>
-        <button onClick = {() => (update(3))}>3</button><br></br>
+        <button onClick = {() => (update(3))}>3</button>
         <button onClick = {() => (update(4))}>4</button>
         <button onClick = {() => (update(5))}>5</button>
-        <button onClick = {() => (update(6))}>6</button><br></br>
+        <button onClick = {() => (update(6))}>6</button>
         <button onClick = {() => (update(7))}>7</button>
         <button onClick = {() => (update(8))}>8</button>
         <button onClick = {() => (update(9))}>9</button><br></br>
@@ -49,12 +51,11 @@ function Calculator(){
             <button onClick = {() =>(update('/'))}>/</button>
             <button onClick = {() => (update('('))}>(</button>
             <button onClick = {() => (update(')'))}>)</button>
-            <button onClick = {() => (update('.'))}>.</button>
+            <button onClick = {() => (update('.'))}>.</button><br></br>
             <button onClick = {calculate}>=</button>
         </div>
-        </>
-        
-        
+        </div>
+        </div>
     )
 }
 
