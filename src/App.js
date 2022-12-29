@@ -1,6 +1,6 @@
 import './App.css';
 import Calculator from './Calculator';
-import {motion, spring} from 'framer-motion'
+import {motion} from 'framer-motion'
 
 function App() {
   return (
