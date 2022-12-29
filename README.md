@@ -2,7 +2,7 @@
 
 A Web Calculator that can solve simple arithmetic Expressions
 ### Technologies Used
-ReactJs, JSX, Webpack, CSS
+ReactJs, JSX, Webpack, CSS, Framer Motion
 
 ### Link
 https://calc-ivory.vercel.app/
