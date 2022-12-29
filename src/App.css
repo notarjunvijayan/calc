@@ -3,9 +3,9 @@
     width:45vw;
     height:5vh;
     background-color: #111606;
-    -webkit-box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 1px 1px 13px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 1px 13px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 13px 2px rgba(0,0,0,0.75);
     border-radius: 10vw;
     color: #b1dd40;
     padding: 1vh 1vw;
@@ -20,7 +20,7 @@ button{
     color:#b1dd40;
     -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
     border-radius: 50vw;
     background-color: #111606;
     width:5vw;
@@ -46,6 +46,9 @@ button{
     justify-content: center;
     border-radius: 3vw;
     width:60vw;
+    -webkit-box-shadow: 1px 1px 13px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 13px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 13px 1px rgba(0,0,0,0.75)
 }
 .buttons{
     height: 40vh;
@@ -58,11 +61,23 @@ button{
 .special{
     background-color: #b1dd40;
     color: #111606;
+    -webkit-box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 4px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 13px 0px rgba(0,0,0,0.75);
 }
 .chumma{
     width:60vw;
     height: 75vh;
 }
+a{
+    text-decoration: none;
+    color: #111606;
+    
+}
+a:hover{
+    text-decoration: underline;
+    transition: 1s;
+}   
 @media (max-width: 800px) {
     .textfield{
         margin-left: 5vw;
@@ -78,7 +93,7 @@ button{
     button{
         width:15vw;
         height: 15vw;
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .canvas{
         width:90vw;
