@@ -39,6 +39,9 @@ function Calculator(){
             else if(e.key === 'Backspace'){
                 remove();
             }
+            else if(e.key === 'Tab'){
+                calculate();
+            }
             }}>
         <div className="buttons">
         <button onClick = {() => (update(1))}>1</button>
