@@ -29,7 +29,17 @@ function Calculator(){
         <div className="textfield">
            <span>{input}</span>
         </div>
-        <div className="calculator">
+        <div className="calculator" onKeyUp={(e)=>{
+            if(e.key < 9 && e.key > 0){
+                update(e.key)
+            }
+            else if(e.key === '+' || e.key === '-' || e.key === '*' || e.key === '/' || e.key === '(' || e.key === ')' ){
+                update(e.key)
+            }
+            else if(e.key === 'Backspace'){
+                remove();
+            }
+            }}>
         <div className="buttons">
         <button onClick = {() => (update(1))}>1</button>
         <button onClick = {() => (update(2))}>2</button>
